@@ -15,7 +15,7 @@ return()=>clearInterval(timer);
  return(
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
         <h1>العد التنازلي :{count}</h1>
-           {count === 0 && <p>⏰ انتهى ! الوقت!</p>}
+           {count === 0 && <p>⏰ انتهى !. الوقت!</p>}
     </div>
  );
 }
